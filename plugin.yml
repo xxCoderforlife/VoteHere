@@ -1,0 +1,10 @@
+name: VoteHere
+main: me.Coderforlife.vote.Main
+version: 1.0
+authors: [xxCoderforlife]
+
+commands:
+    votehere:
+        description: For Votes
+        usage: /<command>
+        aliases: [vh]
