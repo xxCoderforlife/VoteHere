@@ -58,8 +58,6 @@ public class Main extends JavaPlugin{
 			 this.saveConfig();
 			 System.out.println( ChatColor.WHITE + "[" + ChatColor.GREEN + 
 				"Vote Here" + ChatColor.WHITE + "] " + ChatColor.RED + "Reloaded Config");
-		}
-	  {
 	  }
 		
 	}
