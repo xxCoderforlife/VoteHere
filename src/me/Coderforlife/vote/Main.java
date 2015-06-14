@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin{
-	public final String prefix = ChatColor.RED + "- " + ChatColor.RESET;
+	public final String prefix = getConfig().getString("prefix").replaceAll("(&([a-f0-9]))", "\u00A7$2") + " ";
 	public final String keys = ChatColor.GOLD + "[" + ChatColor.DARK_RED + "Keys" + ChatColor.GOLD + "]" ;
 	public void onEnable(){
 		System.out.println("Running "+ System.getProperty("os.name") + " hmmmmmm");
